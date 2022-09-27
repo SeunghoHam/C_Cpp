@@ -2,6 +2,7 @@
 #include<cstdio>
 #include<cstdlib>
 #include<cstring>
+#include<Windows.h>
 
 #define string_Question_I_E_1 "나는 처음 보는 사람에게 자신을 소개하는 것이 두렵지 않다."
 #define string_Question_I_E_2 "내가 스트레스를 푸는 방법은 사람들을 만나는 것 이다."
