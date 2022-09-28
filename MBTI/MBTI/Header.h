@@ -21,9 +21,4 @@
 #define string_Question_J_P_3 "호기심은 나를 움직이는 원동력이다."
 #define string_Question_J_P_4 "프리랜서나 회사원보다 더 나은 삶을 살고있다고 생각한다."
 
-
-//int value;
-// Variable
-// Func
-//char Question(char* content, int* changeValue);
-//int GetAnswer();
+int TotalScore=0;
