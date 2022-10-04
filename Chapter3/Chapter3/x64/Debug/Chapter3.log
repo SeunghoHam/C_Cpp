@@ -1,2 +1,2 @@
-﻿  OOP.cpp
-C:\vsSolution\C_Cpp\Chapter3\Chapter3\OOP.cpp(62,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  override.cpp
+  Chapter3.vcxproj -> C:\vsSolution\C_Cpp\Chapter3\x64\Debug\Chapter3.exe
