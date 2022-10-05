@@ -86,7 +86,7 @@ int main()
 	Human* human = new Human("1234-5678");
 	Animal* animal = new Animal(2, "´ß");
 
-	animal = (Animal*)human;
+	animal = (Animal*)human; // humanÀ» 
 	animal->printInfo();
 	delete animal;
 	// Matrix
