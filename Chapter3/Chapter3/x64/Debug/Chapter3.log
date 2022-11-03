@@ -1,4 +1,10 @@
 ﻿  workSpace.cpp
 C:\vsSolution\C_Cpp\Chapter3\Chapter3\Header.h(2,9): warning C4615: #pragma warning: unknown user warning type
-C:\vsSolution\C_Cpp\Chapter3\Chapter3\workSpace.cpp(42,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\vsSolution\C_Cpp\Chapter3\Chapter3\Header.h(111,35): warning C4553: '==': result of expression not used; did you intend '='?
+C:\vsSolution\C_Cpp\Chapter3\Chapter3\workSpace.cpp(15,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\vsSolution\C_Cpp\Chapter3\Chapter3\workSpace.cpp(35,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\vsSolution\C_Cpp\Chapter3\Chapter3\workSpace.cpp(39,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\vsSolution\C_Cpp\Chapter3\Chapter3\workSpace.cpp(44,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\vsSolution\C_Cpp\Chapter3\Chapter3\workSpace.cpp(48,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\vsSolution\C_Cpp\Chapter3\Chapter3\Header.h(163): warning C4715: 'GameEngie::canGoDown': not all control paths return a value
   Chapter3.vcxproj -> C:\vsSolution\C_Cpp\Chapter3\x64\Debug\Chapter3.exe

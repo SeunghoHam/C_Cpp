@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\vsSolution\C_Cpp\tetris\tetris\Header.h(116): warning C4715: 'GameEngine::canGoDown': not all control paths return a value
+  tetris.vcxproj -> C:\vsSolution\C_Cpp\tetris\x64\Debug\tetris.exe
