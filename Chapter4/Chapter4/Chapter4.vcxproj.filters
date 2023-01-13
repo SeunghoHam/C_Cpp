@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mian_header.h">
+    <ClInclude Include="main_header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Animal.h">

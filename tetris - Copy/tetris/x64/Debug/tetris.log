@@ -1,0 +1,9 @@
+﻿  Source.cpp
+C:\vsSolution\C_Cpp\tetris - Copy\tetris\Header.h(14,12): error C2374: 'displayData': redefinition; multiple initialization
+C:\vsSolution\C_Cpp\tetris - Copy\tetris\Header.h(14): message : see declaration of 'displayData'
+C:\vsSolution\C_Cpp\tetris - Copy\tetris\Header.h(14,12): error C2374: 'displayData': redefinition; multiple initialization
+C:\vsSolution\C_Cpp\tetris - Copy\tetris\Header.h(14): message : see declaration of 'displayData'
+C:\vsSolution\C_Cpp\tetris - Copy\tetris\GameEngine.h(74,12): warning C4553: '==': result of expression not used; did you intend '='?
+C:\vsSolution\C_Cpp\tetris - Copy\tetris\Source.cpp(8,5): error C2374: 'displayData': redefinition; multiple initialization
+C:\vsSolution\C_Cpp\tetris - Copy\tetris\Header.h(14): message : see declaration of 'displayData'
+C:\vsSolution\C_Cpp\tetris - Copy\tetris\Source.cpp(12,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data

@@ -1,3 +1,6 @@
 ﻿  Source.cpp
-C:\vsSolution\C_Cpp\tetris\tetris\Header.h(116): warning C4715: 'GameEngine::canGoDown': not all control paths return a value
+C:\vsSolution\C_Cpp\tetris\tetris\Header.h(108,12): warning C4553: '==': result of expression not used; did you intend '='?
+C:\vsSolution\C_Cpp\tetris\tetris\Source.cpp(6,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\vsSolution\C_Cpp\tetris\tetris\Header.h(146): warning C4715: 'GameEngine::canGoDown': not all control paths return a value
+C:\vsSolution\C_Cpp\tetris\tetris\Header.h(244): warning C4715: 'GameEngine::gameOverDecision': not all control paths return a value
   tetris.vcxproj -> C:\vsSolution\C_Cpp\tetris\x64\Debug\tetris.exe
