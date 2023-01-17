@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PureVirtualFunction", "Pure
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProgramExecutionStructure", "ProgramExecutionStructure\ProgramExecutionStructure.vcxproj", "{F0AD352E-1E68-4ABB-948A-E5B3F742F6C1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Namespace_and_Reference", "Namespace_and_Reference\Namespace_and_Reference.vcxproj", "{0FBF4D5C-F2CF-48CA-88E2-E71E56FF15DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{F0AD352E-1E68-4ABB-948A-E5B3F742F6C1}.Release|x64.Build.0 = Release|x64
 		{F0AD352E-1E68-4ABB-948A-E5B3F742F6C1}.Release|x86.ActiveCfg = Release|Win32
 		{F0AD352E-1E68-4ABB-948A-E5B3F742F6C1}.Release|x86.Build.0 = Release|Win32
+		{0FBF4D5C-F2CF-48CA-88E2-E71E56FF15DD}.Debug|x64.ActiveCfg = Debug|x64
+		{0FBF4D5C-F2CF-48CA-88E2-E71E56FF15DD}.Debug|x64.Build.0 = Debug|x64
+		{0FBF4D5C-F2CF-48CA-88E2-E71E56FF15DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{0FBF4D5C-F2CF-48CA-88E2-E71E56FF15DD}.Debug|x86.Build.0 = Debug|Win32
+		{0FBF4D5C-F2CF-48CA-88E2-E71E56FF15DD}.Release|x64.ActiveCfg = Release|x64
+		{0FBF4D5C-F2CF-48CA-88E2-E71E56FF15DD}.Release|x64.Build.0 = Release|x64
+		{0FBF4D5C-F2CF-48CA-88E2-E71E56FF15DD}.Release|x86.ActiveCfg = Release|Win32
+		{0FBF4D5C-F2CF-48CA-88E2-E71E56FF15DD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

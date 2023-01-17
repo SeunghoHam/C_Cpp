@@ -49,11 +49,9 @@ public:
 		case Time::AFTERNOON:
 			return 2;
 		case Time::NIGHT:
-			return 3;
-			
+			return 3;		
 		default:
 			return 2;
-		
 		}
 		return 2;
 	}
