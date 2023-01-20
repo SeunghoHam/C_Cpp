@@ -1,4 +1,1 @@
-﻿  main.cpp
-C:\vsSolution\C_Cpp\Chapter4\Chapter4\main_header.h(1,1): warning C4828: 파일에 0x10c 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 949).
-C:\vsSolution\C_Cpp\Chapter4\Chapter4\main_header.h(1,1): warning C4828: 파일에 0x10c 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 949).
-  Chapter4.vcxproj -> C:\vsSolution\C_Cpp\Chapter4\x64\Debug\Chapter4.exe
+﻿  Chapter4.vcxproj -> C:\vsSolution\C_Cpp\Chapter4\x64\Debug\Chapter4.exe

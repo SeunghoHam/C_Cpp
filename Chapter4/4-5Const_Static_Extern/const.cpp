@@ -1,6 +1,6 @@
 #include<cstdio>
 #include<cstring>
-#include<string>
+#include<string.h>
 #define _CRT_SECURE_NO_WARNINGS
 
 
@@ -13,7 +13,12 @@
 class Person
 {
 public :
-	const int age;
+	const int age; // 변수 형태의 공간을 가지고 있는 상수
+	// define 상수 : 프로그램상 박혀있음
+	// 상수 직접 할당 : 프로그램상 박혀있음
+	// enum 상수 : 프로그램상 박혀있음
+	// const 키워드 변수 : 변수의 공간을 가지고 있다.
+
 	// 클래스 내부에서의 const 멤버
 	/*
 	* 클래스 멤버를 const 멤버로 선언하면, 실제 변수로서 저장공간을 갖고 있다는 것을 알 수 있다.
@@ -40,12 +45,22 @@ int main()
 	//printf("%d", p->age);
 	
 
+	
+	/*
 	int input;
 	fseek(stdin, 0, SEEK_END);
-	scanf("%d", &input);
+	scanf_s("%d", &input);
 
 	Person* person = new Person(input);
-	printf("%d", person->age);
+	printf("Person : age값 : %d", person->age);
+	*/
+
+	const char* str;
+	char* myStr = new char[100];
+	//strcpy(myStr, "HelloWorld");
+	//str = myStr;
+
+	//printf("\n%s", str);
 	return 0;
 	// 05 : 55
 }
