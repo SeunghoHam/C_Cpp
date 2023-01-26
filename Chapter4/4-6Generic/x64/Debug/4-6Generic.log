@@ -1,14 +1,5 @@
-﻿  STL.cpp
-C:\vsSolution\C_Cpp\Chapter4\4-6Generic\STL.cpp(65,13): warning C4552: '-': 식의 결과가 사용되지 않습니다.
-C:\vsSolution\C_Cpp\Chapter4\4-6Generic\STL.cpp(59,1): message : 클래스 템플릿 멤버 함수 'void MyArray<int>::putValue(T)'을(를) 컴파일하는 중입니다.
-          with
-          [
-              T=int
-          ]
-C:\vsSolution\C_Cpp\Chapter4\4-6Generic\STL.cpp(108,16): message : 컴파일되는 함수 템플릿 인스턴스화 'void MyArray<int>::putValue(T)'에 대한 참조를 확인하세요.
-          with
-          [
-              T=int
-          ]
-C:\vsSolution\C_Cpp\Chapter4\4-6Generic\STL.cpp(107,23): message : 컴파일되는 클래스 템플릿 인스턴스화 'MyArray<int>'에 대한 참조를 확인하세요.
-  4-6Generic.vcxproj -> C:\vsSolution\C_Cpp\Chapter4\x64\Debug\4-6Generic_STL.exe
+﻿  STL_Task.cpp
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-6Generic\STL_Task.cpp(76,2): error C2664: 'int printf(const char *const ,...)': cannot convert argument 1 from 'void' to 'const char *const '
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-6Generic\STL_Task.cpp(76,22): message : Expressions of type void cannot be converted to other types
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(950,37): message : see declaration of 'printf'
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-6Generic\STL_Task.cpp(76,2): message : while trying to match the argument list '(void)'
