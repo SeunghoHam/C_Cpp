@@ -89,7 +89,44 @@ public:
 	{
 		return arrayItem[index];
 	}
+
+	// ## 과제형 연습풀이 추가
+
+	// value 값이 존재하는지 확인하는 함수
+	bool contains(T value)
+	{
+		for (int i = 0; i < count; i++)
+		{
+			if (value == arrayItem[i])
+			{
+				return true;
+			}
+			return false;
+		}
+	}
+
+	// 값을 변경
+	void replace(int index, T value)
+	{
+		// index :배열번호, count 배열개수
+		if(index < count) // 
+		{
+			arrayItem[index] = value;
+		}
+	}
+
+	// 값을 삭제(빈 공간을 채워줘야 함)
+	void erase(int index)
+	{
+		for (int i = 0; i < count-1; i++)	
+		{
+			arrayItem[i] = arrayItem[i + 1];
+		}
+		count--;
+	}
+
 };
+
 
 
 // STL 선언과 정의 분리

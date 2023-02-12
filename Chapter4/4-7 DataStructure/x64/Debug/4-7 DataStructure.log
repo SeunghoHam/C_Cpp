@@ -1,0 +1,11 @@
+﻿  Map_Task.cpp
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-7 DataStructure\Map_Task.cpp(24,10): warning C4473: 'scanf_s' : not enough arguments passed for format string
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-7 DataStructure\Map_Task.cpp(24,10): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-7 DataStructure\Map_Task.cpp(24,10): message : the missing variadic argument 2 is required by format string '%99[^\n]'
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-7 DataStructure\Map_Task.cpp(24,10): message : this argument is used as a buffer size
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-7 DataStructure\Map_Task.cpp(88,10): warning C4473: 'scanf_s' : not enough arguments passed for format string
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-7 DataStructure\Map_Task.cpp(88,10): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-7 DataStructure\Map_Task.cpp(88,10): message : the missing variadic argument 2 is required by format string '%99[^\n]'
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-7 DataStructure\Map_Task.cpp(88,10): message : this argument is used as a buffer size
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-7 DataStructure\Map_Task.cpp(74): warning C4715: 'main_asdf': not all control paths return a value
+  4-7 DataStructure.vcxproj -> D:\VisualStudio_repos\C_Cpp\Chapter4\x64\Debug\4-7DataStructure.exe

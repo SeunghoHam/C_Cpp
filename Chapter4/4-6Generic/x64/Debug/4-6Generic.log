@@ -1,5 +1,2 @@
 ﻿  STL_Task.cpp
-D:\VisualStudio_repos\C_Cpp\Chapter4\4-6Generic\STL_Task.cpp(76,2): error C2664: 'int printf(const char *const ,...)': cannot convert argument 1 from 'void' to 'const char *const '
-D:\VisualStudio_repos\C_Cpp\Chapter4\4-6Generic\STL_Task.cpp(76,22): message : Expressions of type void cannot be converted to other types
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(950,37): message : see declaration of 'printf'
-D:\VisualStudio_repos\C_Cpp\Chapter4\4-6Generic\STL_Task.cpp(76,2): message : while trying to match the argument list '(void)'
+  4-6Generic.vcxproj -> D:\VisualStudio_repos\C_Cpp\Chapter4\x64\Debug\4-6Generic_STL.exe
