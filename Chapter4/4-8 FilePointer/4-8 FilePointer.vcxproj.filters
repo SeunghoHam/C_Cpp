@@ -18,5 +18,11 @@
     <ClCompile Include="FilePointer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="fopenp_fclose.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fprintf_fscanf.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
