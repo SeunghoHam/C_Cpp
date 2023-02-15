@@ -1,5 +1,6 @@
-﻿  fprintf_fscanf.cpp
-D:\VisualStudio_repos\C_Cpp\Chapter4\4-8 FilePointer\fprintf_fscanf.cpp(24,6): warning C4101: 'data2' :참조되지 않은 지역 변수입니다.
-D:\VisualStudio_repos\C_Cpp\Chapter4\4-8 FilePointer\fprintf_fscanf.cpp(42,7): warning C4101: 'ipsumLine' :참조되지 않은 지역 변수입니다.
-D:\VisualStudio_repos\C_Cpp\Chapter4\4-8 FilePointer\fprintf_fscanf.cpp(23,6): warning C4101: 'data1' :참조되지 않은 지역 변수입니다.
+﻿  Task.cpp
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-8 FilePointer\Task.cpp(53,23): warning C4477: 'fscanf' : 서식 문자열 '%99[^\n]'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::string'입니다.
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-8 FilePointer\Task.cpp(53,23): warning C4477: 'fscanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int'입니다.
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-8 FilePointer\Task.cpp(53,23): warning C4477: 'fscanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int'입니다.
+D:\VisualStudio_repos\C_Cpp\Chapter4\4-8 FilePointer\Task.cpp(53,23): warning C4477: 'fscanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 'int'입니다.
   4-8 FilePointer.vcxproj -> D:\VisualStudio_repos\C_Cpp\Chapter4\x64\Debug\4-8 FileIO.exe
