@@ -16,7 +16,6 @@
 * r+ 방식을 많이 사용함. 저장하는 방식.
 */
 
-
 int main()
 {
 #pragma region HelloWorld 생성하기
@@ -26,6 +25,7 @@ int main()
 	fclose(infile);*/
 #pragma endregion
 
+
 #pragma region HellowWorld 읽기
 	/*
 	FILE* infile = fopen("text.txt", "r"); // r 읽기
@@ -34,6 +34,7 @@ int main()
 	fclose(infile); // 종료를 꼭 해줘야함.
 	printf("%s", input);*/
 #pragma endregion
+
 
 #pragma region int형 text파일저장
 	/*

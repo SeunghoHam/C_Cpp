@@ -31,6 +31,40 @@ void PrintInfo(const char* name)
 	FILE* infile = fopen("score.txt", "r"); // 읽기전용으로 열기
 	fclose(infile);
 }
+#pragma region SaveData
+//template <typename T>
+void SaveData(FILE* file, std::string name)
+{
+	//const char* value[255] = { 0, };
+	// 파일에 저장하기
+	
+	fprintf(file, "%99[^\n]s", name.c_str());
+	fgetc(file); // 줄 내림으로 저장
+}
+void SaveData(FILE* file, int value)
+{
+	fprintf(file, "%d", value);
+	fgetc(file);
+}
+#pragma endregion
+
+#pragma region Show
+void ShowData(FILE* file)
+{
+	while (true)
+	{
+		char line[256] = { 0, };
+		fscanf(file, "%255[^\n]s", line);
+		fgetc(file);
+		printf("%s\n", line);
+
+		// feof : 파일에 끝에 닿으면(줄내림X) 
+		if (feof(file) == 1)
+			break;
+	}
+	fclose(file);
+}
+#pragma endregion
 int main()
 {
 	for (;;)
@@ -46,17 +80,43 @@ int main()
 			FILE* studentFile = fopen("score.txt", "w");
 
 			std::string name = GetString("이름 입력 : ");
+			SaveData(studentFile, name);
+			/*e
+			//fscanf(studentFile, " %99[^\n]s", name);
+			fprintf(studentFile, "%99[^\n]s", name);
+			fgetc(studentFile);
+			*/
+
 			int korean = GetInt("국어 점수 입력 : ");
+			SaveData(studentFile, korean);
+
+			/*
+			fscanf(studentFile, " %d", korean);
+
+			fgetc(studentFile);
+			*/
 			int math = GetInt("수학 점수 입력 : ");
+			SaveData(studentFile, math);
+
+			/*
+			fscanf(studentFile, " %d", math);
+			fgetc(studentFile);
+			*/
 			int english = GetInt("영어 점수 입력 : ");
-			
-			fscanf(studentFile," %99[^\n]s %d %d %d", name, korean, math, english);
+			SaveData(studentFile, english);
+
+			/*
+			fscanf(studentFile, " %d", english);
+			fgetc(studentFile);
+			*/
+
 			printf("정보가 저장되었습니다 \n\n");
-			fclose(studentFile);
 		}
 		else if (menu == 2)
 		{
-			
+			FILE* studentFile = fopen("score.txt", "r");
+			ShowData(studentFile);
+			fclose(studentFile);
 		}
 		else if (menu == 3)
 		{
